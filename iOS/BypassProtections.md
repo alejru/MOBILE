@@ -1,4 +1,5 @@
 # Bypass Security Protections
 ### Bypass Jailbreak Detection
 There are many alternatives in Cydia. Liberty works very well for me.
-![](iOS/images/liberty.png)
+ 
+<img src="images/liberty.png" width="200" height="200">
