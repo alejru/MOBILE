@@ -17,7 +17,7 @@ UDID is used for the identification of an iOS Device and UUID for the identifica
 ### XML and Plist Files
 Once the path of the application is identified, find the .plist files and check if there is sensitive information in there.
 
-### SQLite Files
+### SQLite Files / Core Data
 Unless you are using an encrypted variant of SQLite, the data stored in simple SQLite is not secure.
 Identify the .sqlite file (or .db):
 ```
@@ -44,10 +44,12 @@ sqlite> select * from creds;
 sqlite> 
 
 ```
+Core Data is an Object-Relational Mapping (ORM) that creates a layer between the user interface and database. It is faster in terms of record creation than the traditional SQLite format; the only difference is that the tables are prefixed with Z. 
 
 
 ### Keychain Data
-### Core Data
+
+
 ### NSUserDefaults Class
 NSUserDefaults is used for customization as per the user's preferences, and might contain sensitive information. This is stored in the devise as .plist file in the preferences directory, for instance: `/var/mobile/Containers/Data/Application/63A17000-C8E0-48D3-B81B-F4B4D4866E7B/Library/Preferences`. The Plist file should be converted to XML by using plutil.
 ```
