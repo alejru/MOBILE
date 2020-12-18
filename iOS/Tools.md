@@ -17,4 +17,5 @@ Most important Tools at the beggining of the test:
 * Unzip
 * SQLite3
 * Liberty (To Bypass root detection )
+* Keychain_dumper
 
