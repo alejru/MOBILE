@@ -6,7 +6,8 @@ Before returning from your applicationDidEnterBackground method, you should hide
 Also, you could replace the screeen data with a splas screen moving it to the background, and restoring it on the foreground. 
 
 ### Pasteboard
-* Cycript 
+* Cycript </br>
+Install Cycript in the iDevice via Cydia
 ```
 # cycript -p <PID>
 # [UIPasteboard generalPasteboard].items
