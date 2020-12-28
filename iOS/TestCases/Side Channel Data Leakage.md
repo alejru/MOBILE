@@ -6,6 +6,7 @@ Before returning from your applicationDidEnterBackground method, you should hide
 Also, you could replace the screeen data with a splas screen moving it to the background, and restoring it on the foreground. 
 
 ### Pasteboard
+If an application is allowing sensitive data, such as credit card numbers, to be copied on the paste board, then other applications can also access this sensitive information. 
 * Cycript </br>
 Install Cycript in the iDevice via Cydia
 ```
