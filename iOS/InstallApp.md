@@ -9,4 +9,7 @@ AppSync Unified patches installd allowing you to install unsigned IPA files on i
 * Install Filza File Manager. 
 * Find the .ipa file using Filza. Click it and "Install"
 
+### TESTFLIGHT
+Another alternative is by using [TestFlight](https://testflight.apple.com/) 
+
 
