@@ -72,6 +72,10 @@ Converted 1 files to XML format
 </plist>
 
 ```
+### FireBase Real-Time Database
+Firebase is a development platform with more than 15 products, and one of them is Firebase Real-time Database. It can be leveraged by application developers to store and sync data with a NoSQL cloud-hosted database. The data is stored as JSON and is synchronized in real-time to every connected client and also remains available even when the application goes offline.
+* [Firebase Scanner](https://github.com/shivsahni/FireBaseScanner)
+* [Fireprint](https://github.com/sahad-mk/Fireprint) `python3 fireprint.py -i tets.ipa` 
 
 ### Temporaty Files (Data Cache)
 ### Log Files
