@@ -10,6 +10,7 @@ pag 294
 * Core Data
 * KeyChain
 * NsUserDefaults class
+* Firebase Real-time database
 
 ### Side Channel Data Leakage
 * Screenshot
