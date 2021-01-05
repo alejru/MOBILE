@@ -48,6 +48,8 @@ Core Data is an Object-Relational Mapping (ORM) that creates a layer between the
 
 
 ### Keychain Data --pending
+On iOS, when an application is uninstalled, the Keychain data used by the application is retained by the device, unlike the data stored by the application sandbox which is wiped. In the event that a user sells their device without performing a factory reset, the buyer of the device may be able to gain access to the previous user's application accounts and data by reinstalling the same applications used by the previous user. This would require no technical ability to perform.
+
 This can also be done with Frida during the Dynamic test. 
 [Keychain-Dumper](https://github.com/ptoomey3/Keychain-Dumper) is a utility that is used to dump all the keychain data from a jailbroken device.
 Upload keychain_dumper to a directory of your choice on the target device (I have used /tmp during testing). Also, once uploaded, be sure to validate that keychain_dumper is executable (chmod +x ./keychain_dumper if it isn't) and validate that /private/var/Keychains/keychain-2.db is world readable (chmod +r /private/var/Keychains/keychain-2.db if it isn't). I don't get the binary!!!!
