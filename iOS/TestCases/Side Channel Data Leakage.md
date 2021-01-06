@@ -13,7 +13,10 @@ Install Cycript in the iDevice via Cydia
 # cycript -p <PID>
 # [UIPasteboard generalPasteboard].items
 ```
-* Frida - Objection `ios pasteboard monitor`
+* Frida - Objection `#ios pasteboard monitor`
+
+### Binary Cookies
+* Frida - Objection `#ios cookies get --json`
 
 ### Device Logs
 ### Keyboard Cache
