@@ -18,3 +18,6 @@ SQLite @ CastFrameworkDB.sqlite > select * from Z_PRIMARYKEY
 
 ### Reading plist Files
 `# ios plist cat userInfo.plist`
+
+### NSUserDefaults
+`# ios nsuserdefaults get`
