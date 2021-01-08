@@ -6,6 +6,17 @@ Take your time to explore these directories very well
 /var/mobile/Containers/Data/Application/{UUID}
 
 ```
+We can get BundlePath, CachesDirectory, DocumentDirectory, LibraryDirectory using frida-objection 
+```
+com.test.ios on (iPhone: 12.1.1) [usb] # env                                                                                                                                     
+Name               Path
+-----------------  -------------------------------------------------------------------------------------------
+BundlePath         /var/containers/Bundle/Application/F0D8B28D-0707-4E54-B2AE-B6066BD3B777/test.app
+CachesDirectory    /var/mobile/Containers/Data/Application/645941D8-BE7E-42C2-8A1D-F69F83C2E946/Library/Caches
+DocumentDirectory  /var/mobile/Containers/Data/Application/645941D8-BE7E-42C2-8A1D-F69F83C2E946/Documents
+LibraryDirectory   /var/mobile/Containers/Data/Application/645941D8-BE7E-42C2-8A1D-F69F83C2E946/Library
+```
+
 ### Identify Path of Application
 ```
 root# ps aux | grep test
